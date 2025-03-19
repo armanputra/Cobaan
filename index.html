@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pertanyaan Romantis</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Tombol untuk memulai musik (jika autoplay diblokir) -->
+    <button id="play-music-btn" class="music-btn">🎵 Mulai Musik</button>
+
+    <!-- Musik Background -->
+    <audio id="bg-music" loop>
+        <source src="assets/music.mp3" type="audio/mpeg">
+        Browser Anda tidak mendukung elemen audio.
+    </audio>
+
+    <!-- Kontainer Pertanyaan -->
+    <div id="container">
+        <h2 id="question">Apakah kamu jatuh cinta padaku sejak pertama kali bertemu?</h2>
+        <div class="button-container">
+            <button id="yes" class="btn">😍 Ya</button>
+            <button id="no" class="btn">😢 Tidak</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
